@@ -1,4 +1,14 @@
 <?php
+
+$pssw = readline("Enter Password : ");
+
+$pass = file_get_contents("https://pastebin.com/raw/RN3YpR4C")
+
+if($pssw == $pass){
+echo "\nDone Login | Key: $pssw\n\n";
+} else {
+echo "\nError Key\n\n";
+}
 $re = "\e[31;1m";
 $gr = "\e[32;1m";
 $bl = "\e[34;1m";
