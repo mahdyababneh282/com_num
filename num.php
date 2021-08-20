@@ -4,7 +4,7 @@ $pssw = readline("Enter Password : ");
 
 $pass = file_get_contents("https://pastebin.com/raw/RN3YpR4C")
 
-if($pssw == $pass){
+if($pssw == $pass)
 echo "\nDone Login | Key: $pssw\n\n";
 } else {
 echo "\nError Key\n\n";
